@@ -239,14 +239,3 @@ ORDER BY
     "points_conceded" DESC;
 
 
--- Optimize search where "sparring_event"."actor_id" = 1.
-CREATE INDEX "search_performance_by_actor_id"
-ON "sparring_event"("actor_id");
-
--- Optimize search where "sparring_event"."target_id" = 1.
-CREATE INDEX "search_performance_by_target_id"
-ON "sparring_event"("target_id");
-
--- Optimize search by filtering "sparring_event"."round_id"
-CREATE INDEX "filter_performance_by_round_id"
-ON "sparring_event"("round_id");
