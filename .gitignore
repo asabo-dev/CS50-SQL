@@ -1,6 +1,25 @@
-*.db
-*.sqlite
-*.sqlite3
-__pycache__/
-/.DS_Store
 .DS_Store
+# Ignore documents
+3 mins talk .docx
+BJJ Training Analytics.docx
+Plan Prompt.docx
+Presentation.docx
+details.pptx
+
+# Ignore video
+CS50 SQL Project.mov
+
+# Ignore database
+bjj.db
+
+# Ignore markdown/sql drafts
+er_diagram2.md
+queries_cs50.sql
+schema_2.sql
+schema_cs50.sql
+design_cs50.md
+final_design.md
+explanation.md
+
+# Ignore seed file
+seed.sql
